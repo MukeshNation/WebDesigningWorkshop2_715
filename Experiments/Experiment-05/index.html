@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Records</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            margin-top: 30px;
+        }
+        input, button {
+            margin: 5px;
+            padding: 8px;
+        }
+        #output {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Employee Management</h2>
+
+    <input type="text" id="name" placeholder="Enter Name">
+    <input type="number" id="salary" placeholder="Enter Salary">
+
+    <br>
+
+    <button onclick="addEmployee()">Add Employee</button>
+    <button onclick="displayEmployees()">Display</button>
+    <button onclick="filterEmployees()">Salary > 50000</button>
+    <button onclick="totalSalary()">Total Salary</button>
+    <button onclick="averageSalary()">Average Salary</button>
+
+    <div id="output"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
