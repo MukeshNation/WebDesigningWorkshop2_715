@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    letter-spacing: 1px;
+}
+
+/* Content boxes */
+.bg-light {
+    border: 1px solid #ddd;
+    transition: 0.3s;
+}
+
+.bg-light:hover {
+    transform: scale(1.03);
+}
+
+/* Navbar links */
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+/* Footer */
+footer {
+    font-size: 14px;
+}
